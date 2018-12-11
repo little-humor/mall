@@ -1,0 +1,23 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka.springcloud.cn/eureka
+spring:
+  profiles:
+    active:
+#spring:
+#  cloud:
+#    config:
+#      profile: dev
+#      name: cart
+#      label: master
+#      discovery:
+#        enabled: true
+#        service-id: config-server
+#      allow-override: true
+#      override-none: true
+#      override-system-properties: false

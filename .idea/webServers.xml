@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7514efce-e6b5-4444-bb0d-3796b7737b9d" name="阿里云（个人）" url="http://47.101.159.67">
+        <fileTransfer host="47.101.159.67" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c4b176f1-0c52-444a-ad6f-1182418ab288" name="点赞猫（本地测试）" url="http://192.168.0.20">
+        <fileTransfer host="192.168.0.20" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="52c33f56-71a7-4992-9081-736e49bd6c2e" name="humor" url="http://47.95.109.142">
+        <fileTransfer host="47.95.109.142" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

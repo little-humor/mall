@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin" />
+        <module name="cart" />
+        <module name="domain" />
+        <module name="order" />
+        <module name="product" />
+        <module name="shipping" />
+        <module name="user" />
+        <module name="utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin" target="1.8" />
+      <module name="cart" target="1.8" />
+      <module name="domain" target="1.8" />
+      <module name="lcn" target="1.5" />
+      <module name="mall" target="1.8" />
+      <module name="order" target="1.8" />
+      <module name="product" target="1.8" />
+      <module name="shipping" target="1.8" />
+      <module name="user" target="1.8" />
+      <module name="utils" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

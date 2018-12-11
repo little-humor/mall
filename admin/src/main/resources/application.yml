@@ -1,0 +1,74 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /admin
+spring:
+  application:
+    name: admin
+#  mvc:
+#    view:
+#      #静态文件访问
+#      prefix: /admin/
+#      suffix: .html
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    product-url: jdbc:mysql://119.18.193.77:3306/product_db
+    username: root
+    password: dzm123%*
+
+    #Druid连接池配置
+    type: com.alibaba.druid.pool.DruidDataSource
+    # 初始化大小，最小，最大
+    initialSize: 3
+    maxActive: 20
+    minIdle: 3
+    # 最大连接等待超时时间
+    maxWait: 60000
+    # 打开PSCache,并且指定每个连接PSCache的大小
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    # 配置间隔多久才进行一次检测,检测需要关闭的空闲连接,单位是毫秒
+    timeBetweenEvictionRunsMillis: 60000
+    # 配置一个连接在池中最小生存的时间,单位是毫秒
+    minEvictableIdleTimeMillis: 300000
+    # 配置监控统计拦截的filters,去掉后监控界面sql将无法统计,'wall'用于防火墙
+    filters: stat,wall,slf4j
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
+  devtools:
+    restart:
+      enabled: true
+      exclude: public/*
+  redis:
+      host: 47.95.109.142
+      port: 6379
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka.springcloud.cn/eureka
+
+fdfs:
+  host: 47.95.109.142
+  so-timeout: 1501
+  connect-timeout: 601
+  thumb-image:             #缩略图生成参数
+    width: 200
+    height: 200
+  tracker-list:            #TrackerList参数,支持多个
+    ${fdfs.host}:22122
+  pool:
+    #从池中借出的对象的最大数目
+    max-total: 20
+    #获取连接时的最大等待毫秒数100
+    max-wait-millis: 102
+

@@ -1,0 +1,26 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka.springcloud.cn/eureka
+
+#spring:
+#  cloud:
+#    config:
+#      label: master
+#      name: user
+#      profile: dev
+#      #默认为true
+#      allow-override: true
+#      #该属性是在allow-override: true的情况下起作用，如果为ture，外部拓展属性文件不会覆盖任何已经存在的值
+#      override-none: true
+#      #该属性是覆盖Java运行时参数的也就是说，java -jar -Dserver.port=6666 xxx.jar是会被远程的配置文件给覆盖的
+#      #如果不想被远程配置文件覆盖应设为false
+#      override-system-properties: false
+#      discovery:
+#        enabled: true
+#        service-id: config-server
+#      fail-fast: true
