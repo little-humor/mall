@@ -10,7 +10,7 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="点赞猫（本地测试）">
+      <paths name="点赞猫（110）">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$/domain" web="/" />

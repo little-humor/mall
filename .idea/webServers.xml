@@ -10,7 +10,7 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="c4b176f1-0c52-444a-ad6f-1182418ab288" name="点赞猫（本地测试）" url="http://192.168.0.20">
+      <webServer id="c4b176f1-0c52-444a-ad6f-1182418ab288" name="点赞猫（110）" url="http://192.168.0.20">
         <fileTransfer host="192.168.0.20" port="22" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />

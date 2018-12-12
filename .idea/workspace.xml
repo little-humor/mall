@@ -2,190 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e0cc27-f8df-4ea6-8ccd-04c7188e925d" name="默认更改列表" comment="mall商城全新改版">
-      <change beforePath="$PROJECT_DIR$/cart/agent/activations/apm-toolkit-log4j-1.x-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/activations/apm-toolkit-log4j-2.x-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/activations/apm-toolkit-logback-1.x-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/activations/apm-toolkit-opentracing-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/activations/apm-toolkit-trace-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/config/agent.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/optional-plugins/apm-spring-annotation-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-dubbo-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-elastic-job-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-feign-default-http-9.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-grpc-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-h2-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-httpClient-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-httpasyncclient-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-hystrix-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-jdbc-commons-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-jedis-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-jetty-client-9.0-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-jetty-client-9.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-jetty-server-9.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-kafka-v1-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-mongodb-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-mongodb-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-mysql-5.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-nutz-http-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-nutz-mvc-annotation-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-okhttp-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-postgresql-8.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-resttemplate-4.3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-rocketmq-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-rocketmq-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-servicecomb-java-chassis-0.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-servicecomb-java-chassis-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-sharding-jdbc-1.5.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-spring-cloud-feign-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-spring-concurrent-util-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-spring-core-patch-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-springmvc-annotation-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-springmvc-annotation-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-springmvc-annotation-commons-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-spymemcached-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-struts2-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/apm-xmemcached-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/motan-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/plugins/tomcat-7.x-8.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/agent/skywalking-agent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/activations/apm-toolkit-log4j-1.x-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/activations/apm-toolkit-log4j-2.x-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/activations/apm-toolkit-logback-1.x-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/activations/apm-toolkit-opentracing-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/activations/apm-toolkit-trace-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/config/agent.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/optional-plugins/apm-spring-annotation-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-dubbo-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-elastic-job-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-feign-default-http-9.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-grpc-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-h2-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-httpClient-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-httpasyncclient-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-hystrix-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-jdbc-commons-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-jedis-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-jetty-client-9.0-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-jetty-client-9.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-jetty-server-9.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-kafka-v1-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-mongodb-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-mongodb-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-mysql-5.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-nutz-http-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-nutz-mvc-annotation-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-okhttp-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-postgresql-8.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-resttemplate-4.3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-rocketmq-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-rocketmq-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-servicecomb-java-chassis-0.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-servicecomb-java-chassis-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-sharding-jdbc-1.5.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-spring-cloud-feign-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-spring-concurrent-util-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-spring-core-patch-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-springmvc-annotation-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-springmvc-annotation-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-springmvc-annotation-commons-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-spymemcached-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-struts2-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/apm-xmemcached-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/motan-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/plugins/tomcat-7.x-8.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/agent/skywalking-agent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/activations/apm-toolkit-log4j-1.x-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/activations/apm-toolkit-log4j-2.x-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/activations/apm-toolkit-logback-1.x-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/activations/apm-toolkit-opentracing-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/activations/apm-toolkit-trace-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/config/agent.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/optional-plugins/apm-spring-annotation-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-dubbo-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-elastic-job-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-feign-default-http-9.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-grpc-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-h2-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-httpClient-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-httpasyncclient-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-hystrix-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-jdbc-commons-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-jedis-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-jetty-client-9.0-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-jetty-client-9.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-jetty-server-9.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-kafka-v1-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-mongodb-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-mongodb-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-mysql-5.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-nutz-http-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-nutz-mvc-annotation-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-okhttp-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-postgresql-8.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-resttemplate-4.3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-rocketmq-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-rocketmq-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-servicecomb-java-chassis-0.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-servicecomb-java-chassis-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-sharding-jdbc-1.5.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-spring-cloud-feign-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-spring-concurrent-util-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-spring-core-patch-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-springmvc-annotation-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-springmvc-annotation-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-springmvc-annotation-commons-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-spymemcached-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-struts2-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/apm-xmemcached-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/motan-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/plugins/tomcat-7.x-8.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipping/agent/skywalking-agent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/activations/apm-toolkit-log4j-1.x-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/activations/apm-toolkit-log4j-2.x-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/activations/apm-toolkit-logback-1.x-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/activations/apm-toolkit-opentracing-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/activations/apm-toolkit-trace-activation-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/config/agent.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/optional-plugins/apm-spring-annotation-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-dubbo-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-elastic-job-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-feign-default-http-9.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-grpc-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-h2-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-httpClient-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-httpasyncclient-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-hystrix-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-jdbc-commons-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-jedis-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-jetty-client-9.0-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-jetty-client-9.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-jetty-server-9.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-kafka-v1-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-mongodb-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-mongodb-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-mysql-5.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-nutz-http-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-nutz-mvc-annotation-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-okhttp-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-postgresql-8.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-resttemplate-4.3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-rocketmq-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-rocketmq-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-servicecomb-java-chassis-0.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-servicecomb-java-chassis-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-sharding-jdbc-1.5.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-spring-cloud-feign-1.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-spring-concurrent-util-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-spring-core-patch-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-springmvc-annotation-3.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-springmvc-annotation-4.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-springmvc-annotation-commons-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-spymemcached-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-struts2-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/apm-xmemcached-2.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/motan-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/plugins/tomcat-7.x-8.x-plugin-5.0.0-beta.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/agent/skywalking-agent.jar" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/humor/product/configuration/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cart/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/humor/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/humor/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shipping/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shipping/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/product/target/" />
@@ -197,7 +41,6 @@
     <ignored path="$PROJECT_DIR$/domain/target/" />
     <ignored path="$PROJECT_DIR$/admin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -230,31 +73,6 @@
         <item name="@119.18.193.77" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@119.18.193.77" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="common_db: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@119.18.193.77" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="product_db: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@119.18.193.77" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="shipping_db: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@119.18.193.77" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="shipping_db: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="shipping: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -263,132 +81,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="productList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/product/productList.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1422">
-              <caret line="79" column="53" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shipping" pinned="false" current-in-tab="false">
-        <entry file="das://f35f572a-9c5a-41e2-ba7f-905c63af20ae/schema/shipping_db/table/shipping">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cart/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wx_config" pinned="false" current-in-tab="false">
-        <entry file="das://f35f572a-9c5a-41e2-ba7f-905c63af20ae/schema/common_db/table/wx_config">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/product/productList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4428">
-              <caret line="246" column="7" selection-start-line="246" selection-start-column="7" selection-end-line="246" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product" pinned="false" current-in-tab="false">
-        <entry file="das://f35f572a-9c5a-41e2-ba7f-905c63af20ae/schema/product_db/table/product">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/controller/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/service/impl/ProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1206">
-              <caret line="86" column="12" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="180">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/service/impl/ProductServiceImpl.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="100" column="53" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="53" />
+            <state relative-caret-position="274">
+              <caret line="120" column="43" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/repository/ProductRepository.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/configuration/config/SwaggerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/service/impl/FileServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+            <state relative-caret-position="225">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -396,11 +111,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/ProductApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-403">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1278">
-              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+            <state relative-caret-position="18">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -458,17 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/src/main/resources/static/index.js" />
-        <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/product/index.html" />
-        <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/product/index.js" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/humor/admin/entity/Product.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/humor/admin/common/Const.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/humor/admin/common/ResponseCode.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/humor/admin/repository/ProductRepository.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/humor/admin/entity/User.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/humor/admin/repository/CategoryRepository.java" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/humor/product/service/IProductService.java" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/humor/product/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/humor/admin/configuration/jpa/JpaConfiguration.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/humor/admin/configuration/config/ProductDruidDataSourceProperties.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/humor/admin/common/ServerResponse.java" />
@@ -509,38 +254,34 @@
         <option value="$PROJECT_DIR$/admin/src/main/resources/static/admin/product/productList.js" />
         <option value="$PROJECT_DIR$/product/src/main/java/com/humor/product/repository/ProductRepository.java" />
         <option value="$PROJECT_DIR$/product/src/main/java/com/humor/product/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/user/pom.xml" />
+        <option value="$PROJECT_DIR$/product/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cart/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/shipping/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/product/src/main/java/com/humor/product/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/product/src/main/java/com/humor/product/ProductApplication.java" />
+        <option value="$PROJECT_DIR$/product/src/main/java/com/humor/product/configuration/config/SwaggerConfig.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mall" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mall" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="order" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -550,8 +291,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -559,20 +300,15 @@
               <item name="mall" type="b2602c69:ProjectViewProjectNode" />
               <item name="mall" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mall" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -586,14 +322,15 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544612944365" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.side.proportion" value="0.41744187" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -638,9 +375,12 @@
     </option>
     <option name="contentProportion" value="0.19678128" />
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminApplication">
+  <component name="RunManager" selected="Spring Boot.ProductApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="UserApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="user" />
@@ -650,20 +390,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.humor.user" />
       <option name="MAIN_CLASS_NAME" value="com.humor.user.UserApplicationTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="UserApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="user" />
@@ -673,20 +405,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.humor.user" />
       <option name="MAIN_CLASS_NAME" value="com.humor.user.UserApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="UserServiceImplTest.forgetResetPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="user" />
@@ -696,36 +422,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.humor.user.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.humor.user.service.impl.UserServiceImplTest" />
       <option name="METHOD_NAME" value="forgetResetPassword" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="com.humor.common in utils" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utils" />
@@ -735,20 +445,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.humor.common" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="admin" />
@@ -762,69 +464,72 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cart" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.humor.cart.CartApplication" />
       <option name="VM_PARAMETERS" value="-javaagent:$PROJECT_DIR$/cart/agent/skywalking-agent.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="order" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.humor.order.OrderApplication" />
       <option name="VM_PARAMETERS" value="-javaagent:$PROJECT_DIR$/order/agent/skywalking-agent.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="product" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.humor.product.ProductApplication" />
-      <option name="VM_PARAMETERS" value="-javaagent:$PROJECT_DIR$/product/agent/skywalking-agent.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ShippingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shipping" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.humor.shipping.ShippingApplication" />
       <option name="VM_PARAMETERS" value="-javaagent:$PROJECT_DIR$/shipping/agent/skywalking-agent.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.humor.user.UserApplication" />
       <option name="VM_PARAMETERS" value="-javaagent:$PROJECT_DIR$/user/agent/skywalking-agent.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.UserServiceImplTest.forgetResetPassword" />
+      <item itemvalue="JUnit.com.humor.common in utils" />
+      <item itemvalue="JUnit.UserApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.UserApplicationTests" />
       <item itemvalue="Spring Boot.ProductApplication" />
       <item itemvalue="Spring Boot.ShippingApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.CartApplication" />
-      <item itemvalue="JUnit.UserServiceImplTest.forgetResetPassword" />
-      <item itemvalue="JUnit.com.humor.common in utils" />
-      <item itemvalue="JUnit.UserApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.UserApplicationTests" />
       <item itemvalue="Spring Boot.AdminApplication" />
     </list>
     <recent_temporary>
@@ -911,6 +616,10 @@
       <workItem from="1544279270547" duration="3966000" />
       <workItem from="1544438842836" duration="1975000" />
       <workItem from="1544538287428" duration="2918000" />
+      <workItem from="1544579018603" duration="4159000" />
+      <workItem from="1544586314202" duration="627000" />
+      <workItem from="1544587186932" duration="2057000" />
+      <workItem from="1544599498132" duration="8438000" />
     </task>
     <task id="LOCAL-00001" summary="spring cloud组件由D版改为F版">
       <created>1542115611157</created>
@@ -976,7 +685,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426813000" />
+    <option name="totallyTimeSpent" value="442094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -988,56 +697,57 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Key Promoter X" order="11" weight="0.3297568" />
-      <window_info anchor="right" id="Palette" order="10" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84415585" visible="true" weight="0.2971246" />
+      <window_info id="Structure" order="1" sideWeight="0.123809524" side_tool="true" weight="0.22818312" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Web" order="6" sideWeight="0.50060457" side_tool="true" weight="0.22460657" />
+      <window_info id="Favorites" order="7" sideWeight="0.15584415" side_tool="true" weight="0.2918455" />
+      <window_info id="设计器" order="8" />
+      <window_info id="Capture Tool" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32889965" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.23564357" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39903265" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985694" weight="0.32889965" />
+      <window_info anchor="bottom" id="Run Dashboard" order="7" sideWeight="0.49713877" visible="true" weight="0.46732673" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="8" weight="0.32889965" />
-      <window_info anchor="right" id="IDEtalk" order="12" weight="0.23390558" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028612" side_tool="true" weight="0.36517534" />
+      <window_info anchor="bottom" id="IDEtalk Messages" order="10" weight="0.43530834" />
       <window_info anchor="bottom" id="JRebel Console" order="11" sideWeight="0.50143063" side_tool="true" weight="0.5525998" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.25035766" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32889965" />
-      <window_info id="Capture Tool" order="9" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Docker" order="14" weight="0.2756953" />
-      <window_info anchor="right" id="Database" order="5" weight="0.21101573" />
-      <window_info id="Structure" order="1" sideWeight="0.123809524" side_tool="true" weight="0.22818312" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39903265" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985694" weight="0.32889965" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" weight="0.2756953" />
+      <window_info anchor="bottom" id="SQL Generator" order="15" weight="0.32889965" />
+      <window_info anchor="bottom" id="调试" order="16" weight="0.32889965" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.32889965" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="7" sideWeight="0.49713877" weight="0.2648126" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.35912937" />
       <window_info anchor="bottom" id="Version Control" order="18" weight="0.72551394" />
       <window_info anchor="bottom" id="Spring" order="19" weight="0.22249094" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="20" visible="true" weight="0.44256347" />
-      <window_info anchor="bottom" id="Problems" order="23" weight="0.32889965" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84415585" visible="true" weight="0.18097281" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297568" />
-      <window_info id="Web" order="6" sideWeight="0.50060457" side_tool="true" weight="0.22460657" />
-      <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="IDEtalk Messages" order="10" weight="0.43530834" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="7" sideWeight="0.15584415" side_tool="true" weight="0.2918455" />
-      <window_info anchor="right" id="Remote Host" order="13" weight="0.3297568" />
-      <window_info anchor="bottom" id="SQL Generator" order="15" weight="0.32889965" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="调色板" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="20" weight="0.35247526" />
+      <window_info anchor="bottom" id="Messages" order="21" sideWeight="0.49785408" weight="0.37425742" />
       <window_info anchor="bottom" id="Database Console" order="22" weight="0.3784764" />
-      <window_info id="设计器" order="8" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.10729614" />
-      <window_info anchor="bottom" id="Messages" order="21" sideWeight="0.49785408" weight="0.37484884" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32889965" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="调试" order="16" weight="0.32889965" />
+      <window_info anchor="bottom" id="Problems" order="23" weight="0.32871288" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.10729614" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.25035766" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.21101573" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="调色板" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297568" />
+      <window_info anchor="right" id="Palette" order="10" />
+      <window_info anchor="right" id="Key Promoter X" order="11" weight="0.3297568" />
+      <window_info anchor="right" id="IDEtalk" order="12" weight="0.23390558" />
+      <window_info anchor="right" id="Remote Host" order="13" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" order="14" visible="true" weight="0.18903089" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1046,9 +756,6 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.config" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -1081,10 +788,6 @@
           <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="76" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -1111,97 +814,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/target/classes/application.yml" />
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/humor/common/configuration/config/CommonDataSourceProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/csource/fastdfs-client-java/1.27/fastdfs-client-java-1.27.jar!/org/csource/fastdfs/TrackerClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/target/classes/META-INF/spring-configuration-metadata.json" />
-    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/humor/common/FastDFSClient.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/csource/fastdfs-client-java/1.27/fastdfs-client-java-1.27.jar!/org/csource/fastdfs/StorageClient1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/common/FastDFSFile.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/csource/fastdfs-client-java/1.27/fastdfs-client-java-1.27.jar!/org/csource/fastdfs/StorageClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/configuration/ConfigurationCollections.java" />
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/configuration/config/ProductDruidDataSourceProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/fdfs_client.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/common/FastDFSClient.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.4/fastdfs-client-1.26.4.jar!/com/github/tobato/fastdfs/service/FastFileStorageClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="85" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.4/fastdfs-client-1.26.4.jar!/com/github/tobato/fastdfs/service/DefaultFastFileStorageClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="79" column="115" lean-forward="true" selection-start-line="79" selection-start-column="115" selection-end-line="79" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.4/fastdfs-client-1.26.4.jar!/com/github/tobato/fastdfs/service/GenerateStorageClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.4/fastdfs-client-1.26.4.jar!/com/github/tobato/fastdfs/service/TrackerClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.4/fastdfs-client-1.26.4.jar!/com/github/tobato/fastdfs/FdfsClientConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.4/fastdfs-client-1.26.4.jar!/com/github/tobato/fastdfs/service/TrackerClient.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.4/fastdfs-client-1.26.4.jar!/com/github/tobato/fastdfs/FdfsClientConfig.class" />
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/controller/CommonController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -1210,7 +824,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
@@ -1232,13 +845,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/script/shell/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="533" column="9" selection-start-line="533" selection-start-column="9" selection-end-line="533" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/script/shell/init.js" />
     <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/layui/layui.all.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23908">
@@ -1296,93 +903,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/product/productFrom.html" />
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/service/impl/FileServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1278">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f35f572a-9c5a-41e2-ba7f-905c63af20ae/schema/common_db/table/wx_config">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/product/productList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4428">
-          <caret line="246" column="7" selection-start-line="246" selection-start-column="7" selection-end-line="246" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f35f572a-9c5a-41e2-ba7f-905c63af20ae/schema/product_db/table/product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="86" column="12" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/service/IProductService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/repository/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="100" column="53" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -1416,6 +940,204 @@
     <entry file="file://$PROJECT_DIR$/cart/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="das://f35f572a-9c5a-41e2-ba7f-905c63af20ae/schema/common_db/table/wx_config">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/admin/product/productList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4428">
+          <caret line="246" column="7" selection-start-line="246" selection-start-column="7" selection-end-line="246" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f35f572a-9c5a-41e2-ba7f-905c63af20ae/schema/product_db/table/product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/repository/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="86" column="12" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shipping/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/humor/admin/service/impl/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-403">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar!/springfox/documentation/service/Contact.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="86" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="120" column="43" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/ProductApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spi/2.9.2/springfox-spi-2.9.2.jar!/springfox/documentation/spi/DocumentationType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/humor/product/configuration/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1425,7 +1147,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.41744187" />
               </list>
             </option>
           </splitter-proportions>
@@ -1437,7 +1159,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.41744187" />
               </list>
             </option>
           </splitter-proportions>
@@ -1468,11 +1190,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cart</last-edited>
+          <last-edited>mall</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.41744187" />
                 <option value="0.6" />
               </list>
             </option>
@@ -1497,7 +1219,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.41744187" />
               </list>
             </option>
           </splitter-proportions>

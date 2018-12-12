@@ -1,7 +1,5 @@
 server:
   port: 8084
-  servlet:
-    context-path: /shipping-server
 spring:
   application:
     name: shipping-server

@@ -1,7 +1,5 @@
 server:
   port: 8083
-  servlet:
-    context-path: /product-server
 spring:
   application:
     name: product-server
