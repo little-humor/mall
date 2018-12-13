@@ -1,9 +1,9 @@
 package com.humor.admin.service.impl;
 
 import com.humor.admin.common.ServerResponse;
-import com.humor.admin.entity.cart.Cart;
-import com.humor.admin.repository.cart.CartRepository;
-import com.humor.admin.service.ICartService;
+import com.humor.admin.entity.shipping.Shipping;
+import com.humor.admin.repository.shipping.ShippingRepository;
+import com.humor.admin.service.IShippingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -15,30 +15,27 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class CartServiceImpl implements ICartService {
+public class ShippingServiceImpl implements IShippingService {
 
     @Autowired
-    private CartRepository cartRepository;
+    private ShippingRepository shippingRepository;
 
     @Override
-    public ServerResponse findByProductIdAndUserId(Long productId,Long userId,int page,int limit){
+    public ServerResponse findByUserId(Long userId, int page, int limit){
 
         Sort.Order order = new Sort.Order(Sort.Direction.DESC,"createTime");
-        Page<Cart> carts = cartRepository.findAll((root, query, cb) -> {
+        Page<Shipping> shippings = shippingRepository.findAll((root, query, cb) -> {
             List<Predicate> list = new ArrayList();
-            if (productId != null) {
-                list.add(cb.equal(root.get("productId").as(Long.class), productId));
-            }
             if (userId != null) {
                 list.add(cb.equal(root.get("userId").as(Long.class), userId));
             }
             Predicate[] predicates = new Predicate[list.size()];
             query.where(list.toArray(predicates));
             return query.getRestriction();
-        }, new PageRequest(page, limit,new Sort(order)));
+        }, new PageRequest(page, limit, new Sort(order)));
 
-        ServerResponse<List<Cart>> serverResponse = ServerResponse.createBySuccess(carts.getContent());
-        serverResponse.setCount(carts.getTotalElements());
+        ServerResponse<List<Shipping>> serverResponse = ServerResponse.createBySuccess(shippings.getContent());
+        serverResponse.setCount(shippings.getTotalElements());
         return  serverResponse;
     }
 

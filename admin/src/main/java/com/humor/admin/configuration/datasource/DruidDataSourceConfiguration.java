@@ -1,9 +1,7 @@
 package com.humor.admin.configuration.datasource;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.humor.admin.configuration.config.CartDruidDataSourceProperties;
-import com.humor.admin.configuration.config.ProductDruidDataSourceProperties;
-import com.humor.admin.configuration.config.UserDruidDataSourceProperties;
+import com.humor.admin.configuration.config.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -30,9 +28,14 @@ public class DruidDataSourceConfiguration {
     @Autowired
     private CartDruidDataSourceProperties cartDruidDataSourceProperties;
 
+    @Autowired
+    private ShippingDruidDataSourceProperties shippingDruidDataSourceProperties;
 
-    @Bean("userDataSource")
+    @Autowired
+    private OrderDruidDataSourceProperties orderDruidDataSourceProperties;
+
     @Primary
+    @Bean("userDataSource")
     public DataSource userDataSource() {
         DruidDataSource datasource = new DruidDataSource();
         datasource.setUrl(userDruidDataSourceProperties.getUserUrl());
@@ -122,6 +125,69 @@ public class DruidDataSourceConfiguration {
         }
         datasource.setConnectionProperties(cartDruidDataSourceProperties.getConnectionProperties());
         log.info("cart admin datasource 初始化成功");
+        return datasource;
+    }
+
+    @Bean("shippingDataSource")
+    public DataSource shippingDataSource() {
+        DruidDataSource datasource = new DruidDataSource();
+        datasource.setUrl(shippingDruidDataSourceProperties.getShippingUrl());
+        datasource.setUsername(shippingDruidDataSourceProperties.getUsername());
+        datasource.setPassword(shippingDruidDataSourceProperties.getPassword());
+        datasource.setDriverClassName(shippingDruidDataSourceProperties.getDriverClassName());
+
+        //configuration
+        datasource.setInitialSize(shippingDruidDataSourceProperties.getInitialSize());
+        datasource.setMinIdle(shippingDruidDataSourceProperties.getMinIdle());
+        datasource.setMaxActive(shippingDruidDataSourceProperties.getMaxActive());
+        datasource.setMaxWait(shippingDruidDataSourceProperties.getMaxWait());
+        datasource.setTimeBetweenEvictionRunsMillis(shippingDruidDataSourceProperties.getTimeBetweenEvictionRunsMillis());
+        datasource.setMinEvictableIdleTimeMillis(shippingDruidDataSourceProperties.getMinEvictableIdleTimeMillis());
+        datasource.setValidationQuery(shippingDruidDataSourceProperties.getValidationQuery());
+        datasource.setTestWhileIdle(shippingDruidDataSourceProperties.isTestWhileIdle());
+        datasource.setTestOnBorrow(shippingDruidDataSourceProperties.isTestOnBorrow());
+        datasource.setTestOnReturn(shippingDruidDataSourceProperties.isTestOnReturn());
+        datasource.setPoolPreparedStatements(shippingDruidDataSourceProperties.isPoolPreparedStatements());
+        datasource.setMaxPoolPreparedStatementPerConnectionSize(shippingDruidDataSourceProperties.getMaxPoolPreparedStatementPerConnectionSize());
+        try {
+            datasource.setFilters(shippingDruidDataSourceProperties.getFilters());
+        } catch (SQLException e) {
+            System.err.println("druid configuration initialization filter: " + e);
+        }
+        datasource.setConnectionProperties(shippingDruidDataSourceProperties.getConnectionProperties());
+        log.info("shipping admin datasource 初始化成功");
+        return datasource;
+    }
+
+
+    @Bean("orderDataSource")
+    public DataSource orderDataSource() {
+        DruidDataSource datasource = new DruidDataSource();
+        datasource.setUrl(orderDruidDataSourceProperties.getOrderUrl());
+        datasource.setUsername(orderDruidDataSourceProperties.getUsername());
+        datasource.setPassword(orderDruidDataSourceProperties.getPassword());
+        datasource.setDriverClassName(orderDruidDataSourceProperties.getDriverClassName());
+
+        //configuration
+        datasource.setInitialSize(orderDruidDataSourceProperties.getInitialSize());
+        datasource.setMinIdle(orderDruidDataSourceProperties.getMinIdle());
+        datasource.setMaxActive(orderDruidDataSourceProperties.getMaxActive());
+        datasource.setMaxWait(orderDruidDataSourceProperties.getMaxWait());
+        datasource.setTimeBetweenEvictionRunsMillis(orderDruidDataSourceProperties.getTimeBetweenEvictionRunsMillis());
+        datasource.setMinEvictableIdleTimeMillis(orderDruidDataSourceProperties.getMinEvictableIdleTimeMillis());
+        datasource.setValidationQuery(orderDruidDataSourceProperties.getValidationQuery());
+        datasource.setTestWhileIdle(orderDruidDataSourceProperties.isTestWhileIdle());
+        datasource.setTestOnBorrow(orderDruidDataSourceProperties.isTestOnBorrow());
+        datasource.setTestOnReturn(orderDruidDataSourceProperties.isTestOnReturn());
+        datasource.setPoolPreparedStatements(orderDruidDataSourceProperties.isPoolPreparedStatements());
+        datasource.setMaxPoolPreparedStatementPerConnectionSize(orderDruidDataSourceProperties.getMaxPoolPreparedStatementPerConnectionSize());
+        try {
+            datasource.setFilters(orderDruidDataSourceProperties.getFilters());
+        } catch (SQLException e) {
+            System.err.println("druid configuration initialization filter: " + e);
+        }
+        datasource.setConnectionProperties(orderDruidDataSourceProperties.getConnectionProperties());
+        log.info("order admin datasource 初始化成功");
         return datasource;
     }
 

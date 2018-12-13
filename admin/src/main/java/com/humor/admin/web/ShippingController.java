@@ -1,7 +1,7 @@
 package com.humor.admin.web;
 
 import com.humor.admin.common.ServerResponse;
-import com.humor.admin.service.IUserService;
+import com.humor.admin.service.IShippingService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -12,23 +12,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@Api("用户接口")
+@Api("收货地址接口")
 @RestController
-@RequestMapping("user")
-public class UserController {
+@RequestMapping("shipping")
+public class ShippingController {
 
     @Autowired
-    private IUserService userService;
+    private IShippingService shippingService;
 
-    @ApiOperation(value = "会员列表")
+    @ApiOperation(value = "收货地址列表")
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "userName",value = "会员名称",dataType = "String")
+            @ApiImplicitParam(name = "userId",value = "会员ID",dataType = "Long")
     })
     @GetMapping("list.do")
-    public ServerResponse findAll(@RequestParam(value = "userName",required = false) String userName,
+    public ServerResponse findAll(@RequestParam(value = "userId",required = false) long userId,
                                          @RequestParam(value = "page",required = false,defaultValue = "0")int page,
                                          @RequestParam(value = "limit",required = false,defaultValue = "10")int limit){
-        return userService.findByUserName(userName,page==0?0:--page,limit);
+        return shippingService.findByUserId(userId,page==0?0:--page,limit);
     }
 
 }

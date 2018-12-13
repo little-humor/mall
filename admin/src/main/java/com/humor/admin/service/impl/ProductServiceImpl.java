@@ -86,7 +86,7 @@ public class ProductServiceImpl implements IProductService {
         }
         Page<Product> productPage = null;
         //todo jpa中page是从0开始
-        Pageable pageable = new PageRequest(page-1,limit,Sort.Direction.DESC,"createTime");
+        Pageable pageable = new PageRequest(page,limit,Sort.Direction.DESC,"createTime");
         //根据检索条件查询商品
         if(!StringUtils.isEmpty(keyword)&&categoryId!=null){
             //关键字+分类

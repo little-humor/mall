@@ -44,21 +44,21 @@
             <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
             <ul class="layui-nav layui-nav-tree">
 
-                <li class="layui-nav-item layui-nav-itemed" data-id="0-99">
-                    <a class="" href="javascript:;" zidingyi="test">系统管理</a>
+                <li class="layui-nav-item layui-nav-itemed">
+                    <a class="" href="javascript:;">系统管理</a>
                     <dl class="layui-nav-child">
                         <dd>
                             <li class="layui-nav-item" data-id="0-99">
                                 <a class="" href="javascript:;" zidingyi="test">用户管理</a>
                                 <dl class="layui-nav-child menu">
-                                    <dd><a href="javascript:;">用户信息</a></dd>
-                                    <dd><a href="javascript:;">用户权限</a></dd>
+                                    <dd><a data-url="admin/user/userList.html" data-id="0">会员列表</a></dd>
+                                    <dd><a href="javascript:;">管理员权限</a></dd>
                                 </dl>
                             </li>
                             <li class="layui-nav-item layui-nav-itemed" data-id="100-199">
                                 <a class="" href="javascript:;" >商品管理</a>
                                 <dl class="layui-nav-child menu">
-                                    <dd><a data-url="admin/product/productList.html" data-id="1">商品列表</a></dd>
+                                    <dd><a data-url="admin/product/productList.html" data-id="100">商品列表</a></dd>
                                     <dd><a href="javascript:;">发布商品</a></dd>
                                     <dd><a href="javascript:;">商品活动</a></dd>
                                     <dd><a href="javascript:;">商品评论</a></dd>
@@ -67,20 +67,20 @@
                             <li class="layui-nav-item" data-id="200-299">
                                 <a href="javascript:;">订单管理</a>
                                 <dl class="layui-nav-child menu">
-                                    <dd><a href="javascript:;">订单列表</a></dd>
+                                    <dd><a data-url="admin/order/orderList.html" data-id="200">订单列表</a></dd>
                                     <dd><a href="javascript:;">售后服务</a></dd>
                                 </dl>
                             </li>
                             <li class="layui-nav-item" data-id="300-399">
                                 <a href="javascript:;">购物车管理</a>
                                 <dl class="layui-nav-child menu">
-                                    <dd><a href="javascript:;">数据统计</a></dd>
+                                    <dd><a data-url="admin/cart/cartList.html" data-id="300">购物车列表</a></dd>
                                 </dl>
                             </li>
                             <li class="layui-nav-item" data-id="400-499">
                                 <a href="javascript:;">收货地址管理</a>
                                 <dl class="layui-nav-child menu">
-                                    <dd><a href="javascript:;">收货地址列表</a></dd>
+                                    <dd><a data-url="admin/shipping/shippingList.html" data-id="400">收货地址列表</a></dd>
                                     <dd><a href="javascript:;">热点地区统计</a></dd>
                                 </dl>
                             </li>
@@ -97,6 +97,7 @@
                         <dd><a data-url="https://localhost:8080/hystrix-server" data-id="503">服务熔断监控</a></dd>
                         <dd><a data-url="" data-id="504">服务链路监控</a></dd>
                         <dd><a data-url="" data-id="505">缓存Redis管理</a></dd>
+                        <dd><a data-url="" data-id="505">Druid监控</a></dd>
                     </dl>
                 </li>
 

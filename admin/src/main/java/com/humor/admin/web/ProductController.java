@@ -6,6 +6,7 @@ import com.humor.admin.entity.product.Product;
 import com.humor.admin.repository.product.CategoryRepository;
 import com.humor.admin.repository.product.ProductRepository;
 import com.humor.admin.service.IProductService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,6 +16,7 @@ import java.util.List;
  * @author zhangshaoze
  * @date 2018/12/4 11:42 AM
  */
+@Api("商品接口")
 @RestController
 @RequestMapping("product")
 public class ProductController {
@@ -62,7 +64,7 @@ public class ProductController {
                                @RequestParam(value = "categoryId",required = false)Integer categoryId,
                                @RequestParam(value = "page",defaultValue = "0") int page,
                                @RequestParam(value = "limit",defaultValue = "10") int limit){
-        return productService.getProductByKeywordCategory(keyword,categoryId,page,limit);
+        return productService.getProductByKeywordCategory(keyword,categoryId,page==0?0:--page,limit);
     }
 
     /**

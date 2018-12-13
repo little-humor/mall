@@ -1,4 +1,4 @@
-package com.humor.admin.entity;
+package com.humor.admin.entity.shipping;
 
 import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;

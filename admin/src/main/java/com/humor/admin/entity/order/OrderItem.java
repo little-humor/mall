@@ -1,4 +1,4 @@
-package com.humor.admin.entity;
+package com.humor.admin.entity.order;
 
 import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;
@@ -17,37 +17,33 @@ import java.util.Date;
  */
 @Data
 @Entity
-@Table(name = "order_main")
+@Table(name = "order_item")
 @EntityListeners(AuditingEntityListener.class)
-public class Order {
+public class OrderItem {
 
     @Id
     private Long id;
 
-    private Long userId;
+    private Long orderNo;
 
-    private Long shippingId;
+    private Long productId;
 
-    private BigDecimal payment;
+    private String productName;
 
-    private Integer paymentType;
+    private String productImage;
 
-    private Integer postage;
+    private BigDecimal currentUnitPrice;
 
-    private Integer status;
+    private Integer quantity;
 
-    private Date paymentTime;
-
-    private Date sendTime;
-
-    private Date endTime;
-
-    private Date closeTime;
+    private BigDecimal totalPrice;
 
     @CreatedDate
     private Date createTime;
 
     @LastModifiedDate
     private Date updateTime;
+
+    private Long userId;
 
 }

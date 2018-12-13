@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>table模块快速使用</title>
+    <title>收货地址管理</title>
     <link rel="stylesheet" href="../../layui/css/layui.css" media="all">
 </head>
 <body>
@@ -10,24 +10,9 @@
 <form class="layui-form  layui-form-pane" lay-filter="search" id="searchForm" style="padding-top: 20px"> <!-- 提示：如果你不想用form，你可以换成div等任何一个普通元素 -->
     <div class="layui-form-item">
         <div class="layui-inline">
-            <label class="layui-form-label">商品名称</label>
+            <label class="layui-form-label">会员ID</label>
             <div class="layui-input-inline">
-                <input type="text" name="keyword" placeholder="商品名称" autocomplete="off" class="layui-input">
-            </div>
-        </div>
-
-        <div class="layui-inline">
-            <label class="layui-form-label">商品分类</label>
-            <div class="layui-input-inline">
-                <select name="one" lay-filter="searchCategory" lay-search id="searchSelectCategory">
-                    <option value="">一级分类</option>
-                </select>
-            </div>
-            <div class="layui-form-mid">-</div>
-            <div class="layui-input-inline">
-                <select name="two" lay-filter="searchSelectCategoryTwo" lay-search id="searchSelectCategoryTwo">
-                    <option value="">二级分类</option>
-                </select>
+                <input type="text" name="userId" placeholder="会员ID" autocomplete="off" class="layui-input">
             </div>
         </div>
 
@@ -49,41 +34,53 @@
     </div>
 </form>
 
-<table id="product" lay-filter="product"></table>
+<table id="shipping" lay-filter="shipping"></table>
 
 <!--toolbar-->
 <script type="text/html" id="bar">
     <a class="layui-btn layui-btn-xs" lay-event="detail">查看</a>
     <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
-    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
 </script>
 
 <!--form表单-->
-<form class="layui-form  layui-form-pane layui-hide" lay-filter="product" id="productForm" style="padding:20px 20px 50px 20px"> <!-- 提示：如果你不想用form，你可以换成div等任何一个普通元素 -->
+<form class="layui-form  layui-form-pane layui-hide" lay-filter="shipping" id="shippingForm" style="padding:20px 20px 50px 20px"> <!-- 提示：如果你不想用form，你可以换成div等任何一个普通元素 -->
     <div class="layui-form-item">
-        <label class="layui-form-label">商品名称</label>
+        <label class="layui-form-label">收货人</label>
         <div class="layui-input-block">
-            <input type="text" name="name" lay-verify="required" placeholder="请输入商品名称" autocomplete="off" class="layui-input">
+            <input type="text" name="receiverName" lay-verify="required" placeholder="收货人" autocomplete="off" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
-        <label class="layui-form-label">商品副标题</label>
+        <label class="layui-form-label">固定电话</label>
         <div class="layui-input-block">
-            <input type="text" name="subtitle" lay-verify="required" placeholder="请输入商品副标题" autocomplete="off" class="layui-input">
+            <input type="text" name="receiverPhone" lay-verify="required|phone" placeholder="固定电话" autocomplete="off" class="layui-input">
         </div>
     </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">移动电话</label>
+        <div class="layui-input-block">
+            <input type="text" name="receiverMobile" lay-verify="required|phone" placeholder="移动电话" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
     <div class="layui-form-item">
         <div class="layui-inline">
-            <label class="layui-form-label">商品分类</label>
+            <label class="layui-form-label">地区</label>
             <div class="layui-input-inline">
-                <select name="one" lay-verify="required" lay-filter="searchCategory" lay-search id="categorySelect">
-                    <option value="">请选择一级分类</option>
+                <select name="receiverProvince" lay-verify="required" lay-filter="searchCategory" lay-search id="categorySelect">
+                    <option value="">省份</option>
                 </select>
             </div>
             <div class="layui-form-mid">-</div>
             <div class="layui-input-inline">
-                <select name="categoryId" lay-filter="categorySelectTwo" lay-search id="categorySelectTwo">
-                    <option value="">请选择二级分类</option>
+                <select name="receiverCity" lay-filter="categorySelectTwo" lay-search id="oneSelect">
+                    <option value="">城市</option>
+                </select>
+            </div>
+            <div class="layui-form-mid">-</div>
+            <div class="layui-input-inline">
+                <select name="receiverDistrict" lay-filter="categorySelectTwo" lay-search id="twoSelect">
+                    <option value="">区/县</option>
                 </select>
             </div>
         </div>
@@ -92,33 +89,16 @@
 
 
     <div class="layui-form-item">
-        <label class="layui-form-label">价格</label>
+        <label class="layui-form-label">详细地址</label>
         <div class="layui-input-block">
-            <input type="text" name="price" lay-verify="required|number" placeholder="请输入价格" autocomplete="off" class="layui-input">
+            <input type="text" name="receiverAddress" lay-verify="required" placeholder="详细地址" autocomplete="off" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
-        <label class="layui-form-label">库存</label>
+        <label class="layui-form-label">邮编</label>
         <div class="layui-input-block">
-            <input type="text" name="stock" lay-verify="required|number" placeholder="请输入库存" autocomplete="off" class="layui-input">
+            <input type="text" name="receiverZip" lay-verify="required" placeholder="邮编" autocomplete="off" class="layui-input">
         </div>
-    <!-- 商品图片地址 -->
-    <input type="hidden" id="subImages" name="subImages" autocomplete="off" class="layui-input">
-
-
-
-    <div class="layui-form-item">
-        <div class="layui-carousel" id="carousel">
-            <div carousel-item="" id="productImages">
-
-            </div>
-        </div>
-    </div>
-
-    <div class="layui-form-item">
-        <button type="button" class="layui-btn" id="upload" style="padding-left: 20px">
-            <i class="layui-icon">&#xe67c;</i>上传图片
-        </button>
     </div>
 
 
