@@ -1,21 +1,22 @@
 server:
-  port: 8080
-  servlet:
-    context-path: /admin
+  port: 8888
 spring:
   application:
-    name: admin
+    name: admin-server
 #  mvc:
 #    view:
 #      #静态文件访问
 #      prefix: /admin/
 #      suffix: .html
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    #微服务数据库连接地址
+    user-url: jdbc:mysql://119.18.193.77:3306/user_db
     product-url: jdbc:mysql://119.18.193.77:3306/product_db
+    cart-url: jdbc:mysql://119.18.193.77:3306/cart_db
+
+    driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: dzm123%*
-
     #Druid连接池配置
     type: com.alibaba.druid.pool.DruidDataSource
     # 初始化大小，最小，最大
@@ -37,6 +38,10 @@ spring:
     minEvictableIdleTimeMillis: 300000
     # 配置监控统计拦截的filters,去掉后监控界面sql将无法统计,'wall'用于防火墙
     filters: stat,wall,slf4j
+    user:
+
+    product:
+
   jpa:
     show-sql: true
     hibernate:
@@ -44,18 +49,11 @@ spring:
 
   devtools:
     restart:
-      enabled: true
+      enabled: false
       exclude: public/*
   redis:
       host: 47.95.109.142
       port: 6379
-
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://eureka.springcloud.cn/eureka
 
 fdfs:
   host: 47.95.109.142

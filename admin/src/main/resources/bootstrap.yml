@@ -10,7 +10,7 @@ eureka:
 #spring:
 #  cloud:
 #    config:
-#      name: shipping
+#      name: admin
 #      label: master
 #      profile: dev
 #      allow-override: true

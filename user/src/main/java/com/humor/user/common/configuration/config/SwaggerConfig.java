@@ -1,4 +1,4 @@
-package com.humor.product.configuration.config;
+package com.humor.user.common.configuration.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,7 +19,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.humor.product.web"))
+                .apis(RequestHandlerSelectors.basePackage("com.humor.user.web"))
                 .paths(PathSelectors.any())
                 .build();
 
@@ -27,9 +27,9 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo(){
         return new ApiInfoBuilder()
-                .title("商品模块")
-                .description("github：https://github.com/little-humor/mall")
-                .termsOfServiceUrl("")
+                .title("用户模块")
+                .description("个人博客：http://little-humor.github.io")
+                .termsOfServiceUrl("http://little-humor.github.io")
                 .contact("humor")
                 .version("1.0")
                 .build();

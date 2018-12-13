@@ -1,12 +1,12 @@
 package com.humor.admin.configuration.jpa;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings;
 import org.springframework.boot.autoconfigure.orm.jpa.JpaProperties;
 import org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -25,16 +25,15 @@ import java.util.Map;
 @EnableTransactionManagement
 @EnableJpaRepositories(
         //指定EntityManager的创建工厂Bean
-        entityManagerFactoryRef = "productEntityManagerFactory",
+        entityManagerFactoryRef = "userEntityManagerFactory",
         //指定事物管理的Bean
-        transactionManagerRef = "productTransactionManager",
+        transactionManagerRef = "userTransactionManager",
         //设置Repository所在位置
-        basePackages = {"com.humor.admin.repository.product"})
-public class ProductJpaConfiguration {
+        basePackages = {"com.humor.admin.repository.user"})
+public class UserJpaConfiguration {
 
     @Autowired
-    @Qualifier("productDataSource")
-    private DataSource productDataSource;
+    private DataSource userDataSource;
 
     @Autowired
     private JpaProperties jpaProperties;
@@ -44,13 +43,14 @@ public class ProductJpaConfiguration {
      * @param builder
      * @return
      */
-    @Bean("productEntityManagerFactory")
-    public LocalContainerEntityManagerFactoryBean productEntityManagerFactory (EntityManagerFactoryBuilder builder) {
+    @Bean
+    @Primary
+    public LocalContainerEntityManagerFactoryBean userEntityManagerFactory (EntityManagerFactoryBuilder builder) {
         return builder
-                .dataSource(productDataSource)
+                .dataSource(userDataSource)
                 //设置实体类所在位置
-                .packages("com.humor.admin.entity.product")
-                .persistenceUnit("productPersistenceUnit")
+                .packages("com.humor.admin.entity.user")
+                .persistenceUnit("userPersistenceUnit")
                 //设置hibernate通用配置
                 .properties(getVendorProperties())
                 .build();
@@ -60,9 +60,10 @@ public class ProductJpaConfiguration {
      * @param builder
      * @return
      */
-    @Bean("productTransactionManager")
-    public PlatformTransactionManager productTransactionManager(EntityManagerFactoryBuilder builder) {
-        return new JpaTransactionManager(productEntityManagerFactory(builder).getObject());
+    @Bean
+    @Primary
+    public PlatformTransactionManager userTransactionManager(EntityManagerFactoryBuilder builder) {
+        return new JpaTransactionManager(userEntityManagerFactory(builder).getObject());
     }
 
 

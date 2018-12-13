@@ -1,4 +1,4 @@
-package com.humor.admin.controller;
+package com.humor.admin.web;
 
 import com.humor.admin.common.ServerResponse;
 import com.humor.admin.entity.product.Category;

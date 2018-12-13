@@ -1,42 +1,34 @@
-package com.humor.admin.entity;
+package com.humor.admin.entity.cart;
 
 import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-import javax.persistence.*;
-import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
-
 
 /**
  * @author zhangshaoze
  */
 @Data
 @Entity
-@Table(name = "user")
+@Table(name = "cart")
 @EntityListeners(AuditingEntityListener.class)
-public class User implements Serializable {
-
+public class Cart {
     @Id
     private Long id;
 
-    @Column(unique = true,nullable = false)
-    private String username;
+    private Long userId;
 
-    @Column(unique = true,nullable = false)
-    private String password;
+    private Long productId;
 
-    private String email;
+    private Integer quantity;
 
-    private String phone;
-
-    private String question;
-
-    private String answer;
-
-    private Integer role;
+    private Integer checked;
 
     @CreatedDate
     private Date createTime;

@@ -3,7 +3,6 @@ package com.humor.product.controller;
 import com.humor.domain.common.ServerResponse;
 import com.humor.domain.entity.Product;
 import com.humor.product.service.IProductService;
-import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
@@ -17,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
  * @author zhangshaoze
  */
 
-@Api
 @RestController
 @RequestMapping("product")
 public class ProductController {
@@ -27,11 +25,11 @@ public class ProductController {
 
     @ApiOperation(value = "商品列表",httpMethod = "GET",notes = "首页")
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "关键字",  value = "商品名称", dataType = "String"),
-            @ApiImplicitParam(name = "分类id",  value = "商品分类id", dataType = "Long"),
-            @ApiImplicitParam(name = "当前页",  value = "默认：0", dataType = "int"),
-            @ApiImplicitParam(name = "每页大小",  value = "默认：15", dataType = "int"),
-            @ApiImplicitParam(name = "排序",  value = "功能待开发", dataType = "String"),
+            @ApiImplicitParam(name = "keyword",  value = "商品名称", dataType = "String"),
+            @ApiImplicitParam(name = "categoryId",  value = "商品分类id", dataType = "Long"),
+            @ApiImplicitParam(name = "pageNum",  value = "默认：0", dataType = "int"),
+            @ApiImplicitParam(name = "pageSize",  value = "默认：15", dataType = "int"),
+            @ApiImplicitParam(name = "orderBy",  value = "功能待开发", dataType = "String")
     })
     @GetMapping("list.do")
     public ServerResponse list(@RequestParam(value = "keyword",required = false)String keyword,

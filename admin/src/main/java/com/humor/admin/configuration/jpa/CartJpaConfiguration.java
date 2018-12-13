@@ -25,16 +25,16 @@ import java.util.Map;
 @EnableTransactionManagement
 @EnableJpaRepositories(
         //指定EntityManager的创建工厂Bean
-        entityManagerFactoryRef = "productEntityManagerFactory",
+        entityManagerFactoryRef = "cartEntityManagerFactory",
         //指定事物管理的Bean
-        transactionManagerRef = "productTransactionManager",
+        transactionManagerRef = "cartTransactionManager",
         //设置Repository所在位置
-        basePackages = {"com.humor.admin.repository.product"})
-public class ProductJpaConfiguration {
+        basePackages = {"com.humor.admin.repository.cart"})
+public class CartJpaConfiguration {
 
     @Autowired
-    @Qualifier("productDataSource")
-    private DataSource productDataSource;
+    @Qualifier("cartDataSource")
+    private DataSource cartDataSource;
 
     @Autowired
     private JpaProperties jpaProperties;
@@ -44,13 +44,13 @@ public class ProductJpaConfiguration {
      * @param builder
      * @return
      */
-    @Bean("productEntityManagerFactory")
-    public LocalContainerEntityManagerFactoryBean productEntityManagerFactory (EntityManagerFactoryBuilder builder) {
+    @Bean("cartEntityManagerFactory")
+    public LocalContainerEntityManagerFactoryBean cartEntityManagerFactory (EntityManagerFactoryBuilder builder) {
         return builder
-                .dataSource(productDataSource)
+                .dataSource(cartDataSource)
                 //设置实体类所在位置
-                .packages("com.humor.admin.entity.product")
-                .persistenceUnit("productPersistenceUnit")
+                .packages("com.humor.admin.entity.cart")
+                .persistenceUnit("cartPersistenceUnit")
                 //设置hibernate通用配置
                 .properties(getVendorProperties())
                 .build();
@@ -60,9 +60,9 @@ public class ProductJpaConfiguration {
      * @param builder
      * @return
      */
-    @Bean("productTransactionManager")
-    public PlatformTransactionManager productTransactionManager(EntityManagerFactoryBuilder builder) {
-        return new JpaTransactionManager(productEntityManagerFactory(builder).getObject());
+    @Bean("cartTransactionManager")
+    public PlatformTransactionManager cartTransactionManager(EntityManagerFactoryBuilder builder) {
+        return new JpaTransactionManager(cartEntityManagerFactory(builder).getObject());
     }
 
 

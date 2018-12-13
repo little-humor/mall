@@ -15,18 +15,16 @@ layui.use(['table','layer','form','upload','carousel','colorpicker'], function()
         elem: '#product',
         height: 'full',
         even: true,//隔行背景
-        url: urlPrefix+'product/list.do', //数据接口
+        url: urlPrefix+'user/list.do', //数据接口
         // where: {},
         page: true, //开启分页
         cols: [[ //表头
             {field: 'id', title: 'ID', width:50, sort: true, fixed: 'left'},
-            {field: 'categoryId', title: '分类'},
-            {field: 'name', title: '名称', sort: true},
-            {field: 'subtitle', title: '副标题'},
-            {field: 'mainImage', title: '主图'},
-            {field: 'price', title: '价格', sort: true},
-            {field: 'stock', title: '库存', sort: true},
-            {field: 'status', title: '状态', sort: true},
+            {field: 'username', title: '账户名称'},
+            {field: 'password', title: '账户密码', sort: true},
+            {field: 'email', title: '邮箱'},
+            {field: 'phone', title: '联系方式'},
+            {field: 'role', title: '角色', sort: true},
             {field: 'createTime', title: '创建时间', sort: true},
             {field: 'updateTime', title: '更新时间', sort: true},
             {field: '', title: '操作', width:180, toolbar:'#bar'}

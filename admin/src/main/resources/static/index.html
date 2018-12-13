@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>商城后台管理</title>
     <link rel="stylesheet" href="./layui/css/layui.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-        <div class="layui-logo">Little Humor</div>
+        <div class="layui-logo">快乐商城</div>
         <!-- 头部区域（可配合layui已有的水平导航） -->
         <ul class="layui-nav layui-layout-left">
             <li class="layui-nav-item"><a href="">控制台</a></li>
@@ -38,60 +39,76 @@
         </ul>
     </div>
 
-    <div class="layui-side layui-bg-black">
+    <div class="layui-side layui-bg-black custom_index_let_side">
         <div class="layui-side-scroll">
             <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
             <ul class="layui-nav layui-nav-tree">
-                <li class="layui-nav-item ">
-                    <a class="" href="javascript:;">用户管理</a>
+
+                <li class="layui-nav-item layui-nav-itemed" data-id="0-99">
+                    <a class="" href="javascript:;" zidingyi="test">系统管理</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">用户信息</a></dd>
-                        <dd><a href="javascript:;">用户权限</a></dd>
+                        <dd>
+                            <li class="layui-nav-item" data-id="0-99">
+                                <a class="" href="javascript:;" zidingyi="test">用户管理</a>
+                                <dl class="layui-nav-child menu">
+                                    <dd><a href="javascript:;">用户信息</a></dd>
+                                    <dd><a href="javascript:;">用户权限</a></dd>
+                                </dl>
+                            </li>
+                            <li class="layui-nav-item layui-nav-itemed" data-id="100-199">
+                                <a class="" href="javascript:;" >商品管理</a>
+                                <dl class="layui-nav-child menu">
+                                    <dd><a data-url="admin/product/productList.html" data-id="1">商品列表</a></dd>
+                                    <dd><a href="javascript:;">发布商品</a></dd>
+                                    <dd><a href="javascript:;">商品活动</a></dd>
+                                    <dd><a href="javascript:;">商品评论</a></dd>
+                                </dl>
+                            </li>
+                            <li class="layui-nav-item" data-id="200-299">
+                                <a href="javascript:;">订单管理</a>
+                                <dl class="layui-nav-child menu">
+                                    <dd><a href="javascript:;">订单列表</a></dd>
+                                    <dd><a href="javascript:;">售后服务</a></dd>
+                                </dl>
+                            </li>
+                            <li class="layui-nav-item" data-id="300-399">
+                                <a href="javascript:;">购物车管理</a>
+                                <dl class="layui-nav-child menu">
+                                    <dd><a href="javascript:;">数据统计</a></dd>
+                                </dl>
+                            </li>
+                            <li class="layui-nav-item" data-id="400-499">
+                                <a href="javascript:;">收货地址管理</a>
+                                <dl class="layui-nav-child menu">
+                                    <dd><a href="javascript:;">收货地址列表</a></dd>
+                                    <dd><a href="javascript:;">热点地区统计</a></dd>
+                                </dl>
+                            </li>
+                        </dd>
                     </dl>
                 </li>
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;" >商品管理</a>
-                    <dl class="layui-nav-child">
-                        <dd><a data-url="admin/product/productList.html" data-id="1">商品列表</a></dd>
-                        <dd><a href="javascript:;">发布商品</a></dd>
-                        <dd><a href="javascript:;">商品活动</a></dd>
-                        <dd><a href="javascript:;">商品评论</a></dd>
+                <li class="layui-nav-item" data-id="500-599">
+                    <a href="javascript:;">系统监控</a>
+                    <dl class="layui-nav-child menu">
+                        <dd><a data-url="https://localhost:8080/config-server" data-id="500">服务配置中心</a></dd>
+                        <dd><a data-url="https://localhost:8080/swagger-ui.html" data-id="501">服务接口文档</a></dd>
+                        <dd><a data-url="http://eureka.springcloud.cn/" data-id="501">服务发现</a></dd>
+                        <dd><a data-url="https://localhost:8080/admin-server" data-id="502">服务状态监控</a></dd>
+                        <dd><a data-url="https://localhost:8080/hystrix-server" data-id="503">服务熔断监控</a></dd>
+                        <dd><a data-url="" data-id="504">服务链路监控</a></dd>
+                        <dd><a data-url="" data-id="505">缓存Redis管理</a></dd>
                     </dl>
                 </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;">订单管理</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">订单列表</a></dd>
-                        <dd><a href="javascript:;">售后服务</a></dd>
-                    </dl>
-                </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;">购物车管理</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">数据统计</a></dd>
-                    </dl>
-                </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;">收货地址管理</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">收货地址列表</a></dd>
-                        <dd><a href="javascript:;">热点地区统计</a></dd>
-                    </dl>
-                </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;">系统管理</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">收货地址列表</a></dd>
-                        <dd><a href="javascript:;">热点地区统计</a></dd>
-                    </dl>
-                </li>
+
+
+
             </ul>
         </div>
     </div>
 
     <!--内容主体区域-->
     <div class="layui-body">
-        <div class="layui-tab layui-tab-card" lay-filter="demo" lay-allowclose="true">
+        <div class="layui-tab layui-tab-card" lay-filter="mall" lay-allowclose="true">
             <ul class="layui-tab-title"></ul>
             <div class="layui-tab-content"></div>
         </div>
@@ -99,10 +116,18 @@
 
     <div class="layui-footer">
         <!-- 底部固定区域 -->
-        © little-humor.cn - 快乐商城
+        © little-humor.cn - 分布式微服务最佳实践
     </div>
 </div>
 <script src="./layui/layui.js"></script>
-<script src="./index.js"></script>
+<script>
+    //url前缀
+    var url_prefix = window.location.protocol +"//"+ window.location.host + "/admin-server/";
+
+    layui.config({
+        base: '/admin-server/' //项目根目录
+    }).use('index'); //加载入口
+</script>
+<!--<script src="./index.js"></script>-->
 </body>
 </html>
